@@ -1,0 +1,65 @@
+ECHO is on.
+# Ignore Python cache/compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset files
+*.csv
+*.tsv
+*.json
+*.xml
+*.h5
+*.mat
+*.npz
+*.npy
+*.xlsx
+*.zip
+*.tar
+*.gz
+
+# Ignore image/video datasets
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+*.mp4
+*.avi
+*.mov
+
+# Ignore model checkpoints and weights
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.pb
+*.onnx
+*.weights
+
+# Ignore training logs and outputs
+logs/
+runs/
+output/
+checkpoints/
+models/
+*.log
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
